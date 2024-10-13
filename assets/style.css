@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Poppins;
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -272,4 +273,92 @@
     color: #666;
     font-size: 15px;
     line-height: 28px;
+}
+/* PRICING */
+.pricing {
+    height: 100%;
+    margin: 30px 0;
+    /* background-image: url(./imgs/pricing-bg.png), linear-gradient(180deg, #ffffff 0%, #eef9ff 100%) !important; */
+    background-size: contain;
+    background-position: center bottom 0px;
+}
+.pricing-text {
+    text-align: center;
+    color: #ff8f00;
+    font-size: 18px;
+    font-weight: 500;
+}
+.pricing-title {
+    text-align: center;
+    margin: 10px 0;
+}
+.pricing-item__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.pricing-list  {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-item {
+    width: 30%;
+    padding: 20px 45px;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+}
+.pricing-item__price {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    margin: 20px 0;
+}
+.pricing-item__price span {
+    margin-top: -50px;
+    font-size: 22px;
+    color: #666;
+}
+.pricing-item__price p {
+    font-size: 25px;
+    color: #666;
+    margin-bottom: -22px;
+}
+.pricing-item__services {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.pricing-item__service {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+}
+.pricing-item__service:before {
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #ff8f00;
+    left: 0;
+}
+.pricing-item__btn {
+    width: 200px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    height: 50px;
+    margin: 30px 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 10px;
+}
+.pricing-item:nth-child(2) .pricing-item__service:before {
+    background: #2970FA;
+}
+.pricing-item:nth-child(3) .pricing-item__service:before {
+    background: #29CF8D;
 }
