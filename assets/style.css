@@ -10,7 +10,7 @@
 }
 
 
-@keyframes appear {
+/* @keyframes appear {
     from {
         opacity: 0;
         scale: .7;
@@ -19,7 +19,7 @@
         opacity: 1;
         scale: 1;
     }
-}
+} */
 
 .container {
     width: 1300px;
@@ -614,9 +614,103 @@
     text-align: center;
     box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.06);
 }
+
 .testimonial-item__subtitle {
     margin: 20px 0;
     color: #666;
     font-size: 16px;
     line-height: 28px;
+}
+
+/* SATISFACTION */
+.satisfaction-name {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.satisfaction {
+    margin: 50px 0;
+}
+
+.satisfaction-list {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.satisfaction-item {
+    width: 40%;
+    color: white;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.satisfaction-item__subtitle {
+    margin: 10px 0;
+}
+
+.satisfaction-item__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.satisfaction-item__btn {
+    width: 160px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    background: #263547;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* FRE-HOCTING */
+.hosting {
+    text-align: center;
+    height: 85vh;
+    padding-top: 300px;
+    margin-top: 50px;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(./imgs/free-hosting-bg.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%) !important;
+}
+
+.hosting-title {
+    font-size: 43px;
+    color: white;
+    font-weight: 600;
+}
+.hosting-subtitle {
+    color: white;
+    width: 40%;
+    margin: 15px auto;
+}
+.hosting-btn {
+    width: 160px;
+    height: 50px;
+    background: #263547;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+/* FOOTER */
+.footer {
+    background: #171717;
+    color: #4F4F4F;
+    display: flex;
+    padding: 30px 300px;
+    justify-content: space-between; 
+}
+.footer-list i {
+    font-size: 27px;
+}
+.footer-list {
+    display: flex;
+    gap: 10px;
 }
