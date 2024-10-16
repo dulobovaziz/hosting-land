@@ -10,7 +10,7 @@
 }
 
 
-/* @keyframes appear {
+@keyframes appear {
     from {
         opacity: 0;
         scale: .7;
@@ -19,7 +19,7 @@
         opacity: 1;
         scale: 1;
     }
-} */
+}
 
 .container {
     width: 1300px;
